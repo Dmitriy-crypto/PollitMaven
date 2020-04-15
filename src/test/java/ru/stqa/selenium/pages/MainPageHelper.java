@@ -28,6 +28,9 @@ public class MainPageHelper extends PageBase {
 
     @FindBy(xpath = "//div[contains(@class,'form-box')]")
     WebElement formBoxLogIn;
+
+    @FindBy(xpath = "//div[@class='auth-menu']//a[@class='login'][contains(text(),'Log in')]")
+    public WebElement LogInButton;
     //--------------------------------------------------------------------------
 
     public MainPageHelper(WebDriver driver) {
@@ -37,11 +40,37 @@ public class MainPageHelper extends PageBase {
     //-----------------------------------------------------------------------------------
 
     public MainPageHelper waitMainPageIsCorrectLoaded() {
+        waitTextOfMainPageLoaded();
+        waitElementOfMainPageIsClickable();
+        return this;
+    }
+
+    public MainPageHelper waitTextOfMainPageLoaded() {
         waitUntilElementIsVisible(textArea, 3);
+        return this;
+    }
+
+    public MainPageHelper waitElementOfMainPageIsClickable() {
         waitUntilElementIsClickable(signUpBox, 3);
         return this;
     }
 
+/*public LoginPageHelper waitUntilPageIsLoaded(){
+
+        waitUntilElementIsClickable(signInButton,20);
+        return this;
+    }
+
+    public LoginPageHelper openLoginPage(){
+        waitUntilElementIsClickable(loginIcon,20);
+        loginIcon.click();
+        waitUntilPageIsLoaded();
+        return this;
+    }
+
+    public Boolean correctPageIsLoaded(){
+        return registrationLink.getText().contains("registration");
+    }*/
 
     public boolean formBoxLogInElementIsNotLoaded() {
         return waitUntilElementIsNotLoaded(driver, By.xpath("//div[contains(@class,'form-box')]"), 3);
@@ -56,7 +85,7 @@ public class MainPageHelper extends PageBase {
 
     public boolean atUrlMainPage() {
         log.info("START: public boolean atUrlMainPage");
-       return atUrlThisPage(mainURL,"Main Page");
+        return atUrlThisPage(mainURL, "Main Page");
 
     }
 

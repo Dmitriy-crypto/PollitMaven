@@ -22,9 +22,9 @@ public class SignUpNegativeFromDataProviderTests extends TestBase {
     private SignUpPageHelper SignUpPage;
     private VerifyPageHelper VerifyPage;
 
+    //------------------------------------------Logger--------------------------------------------------
     Logger log = LoggerFactory.getLogger(SignUpNegativeFromDataProviderTests.class);
 
-    //------------------------------------------Logger--------------------------------------------------
     @BeforeMethod
     public void startLogger(Method m, Object[] p) {
         log.info("---------------TEST START  " + m.getName() + " with parameters:" + Arrays.asList(p));

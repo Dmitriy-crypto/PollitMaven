@@ -30,6 +30,7 @@ public class MainPageTests extends TestBase {
     }
 
     //------------------------Star Test ----------------------------------------------------------
+
     @BeforeMethod
     public void initTests() {
         mainPage = PageFactory.initElements(driver, MainPageHelper.class);
