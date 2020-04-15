@@ -1,0 +1,444 @@
+15:12:56.296 INFO  TestBase:44 - Method completed: @BeforeSuite public void initTestSuite()
+15:12:56.399 INFO  TestBase:49 - @BeforeTest  public void initWebDriver >> START:
+15:13:05.645 INFO  TestBase:54 - Opened the site  - https://pollit.co.il/
+15:13:06.954 INFO  TestBase:57 - @BeforeTest  public void initWebDriver >> COMPLETED
+15:13:06.991 INFO  SignUpNegativeFromDataProviderTests:44 - ----START @BeforeGroups(groups = "registrationNegative")- public void initPageForNegativeRegistrationFromDataProvider
+15:13:07.071 INFO  PageBase:51 - Start public boolean PageMainLoadedText
+15:13:07.101 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //p[contains(text(),'George Carlin')]
+15:13:07.134 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //p[contains(text(),'George Carlin')]
+15:13:07.185 INFO  PageBase:73 - DONE: public boolean waitUntilElementIsLoadedText George Carlin By.xpath: //p[contains(text(),'George Carlin')]
+15:13:07.185 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //a[@class='signUp']
+15:13:07.207 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //a[@class='signUp']
+15:13:08.727 INFO  SignUpNegativeFromDataProviderTests:54 - mainPage.SignUpButton.click()
+15:13:08.727 INFO  SignUpPageTests:147 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+15:13:08.728 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:08.775 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:08.861 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:08.883 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:08.884 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:13:08.885 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:08.924 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:08.973 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:08.989 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:09.007 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:09.025 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:09.025 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> xpath: //button[@class='ui button login']]
+15:13:09.025 INFO  SignUpPageTests:150 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+15:13:09.025 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:13:09.036 INFO  SignUpNegativeFromDataProviderTests:59 - -----STOP @BeforeGroups(groups = "registrationNegative") public void initPageForNegativeRegistrationFromDataProvider
+15:13:09.039 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+15:13:09.040 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:09.066 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:09.118 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:09.137 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:09.162 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:09.186 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:09.186 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:13:09.187 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:09.187 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:09.210 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:09.293 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:09.309 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:09.354 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:09.369 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:09.405 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:09.432 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:09.489 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:09.506 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:09.712 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:09.739 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:09.801 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:09.817 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:10.194 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:10.237 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:10.319 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:10.337 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:10.589 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:10.626 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:10.782 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:10.814 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:11.107 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:11.135 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:11.295 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:11.311 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:12.661 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:13.661 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:13.682 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:13.845 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:13:16.846 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:13:16.849 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:13:16.900 INFO  SignUpNegativeFromDataProviderTests:117 - -----TRUE---Test negativeRegistrationUserFromDataProvider
+15:13:16.931 INFO  SignUpNegativeFromDataProviderTests:84 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:13:16.931 INFO  SignUpNegativeFromDataProviderTests:85 - -------keep trying to test
+15:13:16.931 INFO  SignUpNegativeFromDataProviderTests:88 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+15:13:16.932 INFO  SignUpNegativeFromDataProviderTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+15:13:16.934 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[Vasy, , tester@test.com, 972546667788, Password1, Password1]
+15:13:16.935 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:16.977 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:17.144 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:17.216 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:17.245 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:17.295 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:17.295 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:13:17.295 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:17.296 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:17.345 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:17.648 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:17.716 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:17.860 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:17.912 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:18.294 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:18.315 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:18.377 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:18.407 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:18.491 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:18.510 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:18.588 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:18.612 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:18.905 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:18.933 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:18.987 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:19.011 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:19.204 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:19.223 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:19.287 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:19.309 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:19.494 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:19.526 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:19.591 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:19.613 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:20.755 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:21.756 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:21.772 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:21.873 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:13:24.874 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:13:24.874 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:13:24.901 INFO  SignUpNegativeFromDataProviderTests:117 - -----TRUE---Test negativeRegistrationUserFromDataProvider
+15:13:24.936 INFO  SignUpNegativeFromDataProviderTests:84 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:13:24.936 INFO  SignUpNegativeFromDataProviderTests:85 - -------keep trying to test
+15:13:24.936 INFO  SignUpNegativeFromDataProviderTests:88 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+15:13:24.937 INFO  SignUpNegativeFromDataProviderTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+15:13:24.938 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[Vasy, Petrovich, , 972546667788, Password1, Password1]
+15:13:24.939 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:25.097 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:25.233 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:25.286 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:25.319 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:25.342 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:25.343 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:13:25.344 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:25.344 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:25.385 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:25.539 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:25.571 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:25.655 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:25.696 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:25.846 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:25.870 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:25.940 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:25.956 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:26.168 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:26.200 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:26.291 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:26.323 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:26.403 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:26.437 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:26.516 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:26.537 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:26.737 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:26.759 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:26.820 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:26.845 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:27.019 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:27.043 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:27.109 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:27.125 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:28.305 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:29.305 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:29.339 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:29.427 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:13:32.428 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:13:32.429 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:13:32.442 INFO  SignUpNegativeFromDataProviderTests:117 - -----TRUE---Test negativeRegistrationUserFromDataProvider
+15:13:32.464 INFO  SignUpNegativeFromDataProviderTests:84 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:13:32.464 INFO  SignUpNegativeFromDataProviderTests:85 - -------keep trying to test
+15:13:32.465 INFO  SignUpNegativeFromDataProviderTests:88 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+15:13:32.465 INFO  SignUpNegativeFromDataProviderTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+15:13:32.467 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[Vasy, Petrovich, tester@test.com, , Password1, Password1]
+15:13:32.468 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:32.497 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:32.539 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:32.561 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:32.583 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:32.666 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:32.666 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:13:32.666 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:32.666 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:32.687 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:32.822 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:32.868 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:32.919 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:32.936 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:33.044 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:33.065 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:33.116 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:33.133 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:33.289 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:33.306 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:33.341 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:33.356 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:33.548 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:33.564 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:33.610 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:33.628 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:33.679 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:33.699 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:33.744 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:33.767 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:33.935 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:33.956 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:34.003 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:34.021 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:35.176 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:36.176 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:36.192 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:36.272 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:13:39.274 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:13:39.274 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:13:39.289 INFO  SignUpNegativeFromDataProviderTests:117 - -----TRUE---Test negativeRegistrationUserFromDataProvider
+15:13:39.310 INFO  SignUpNegativeFromDataProviderTests:84 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:13:39.311 INFO  SignUpNegativeFromDataProviderTests:85 - -------keep trying to test
+15:13:39.311 INFO  SignUpNegativeFromDataProviderTests:88 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+15:13:39.312 INFO  SignUpNegativeFromDataProviderTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+15:13:39.314 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[Vasy, Petrovich, tester@test.com, 972546667788, , Password1]
+15:13:39.314 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:39.341 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:39.401 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:39.424 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:39.455 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:39.484 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:39.485 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:13:39.485 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:39.485 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:39.504 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:39.604 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:39.621 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:39.672 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:39.691 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:39.789 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:39.810 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:39.871 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:39.895 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:40.040 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:40.062 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:40.103 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:40.120 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:40.358 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:40.376 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:40.423 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:40.446 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:40.622 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:40.639 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:40.724 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:40.755 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:40.842 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:40.875 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:40.937 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:40.953 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:42.098 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:43.098 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:43.111 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:43.172 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:13:46.173 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:13:46.173 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:13:46.323 INFO  SignUpNegativeFromDataProviderTests:117 - -----TRUE---Test negativeRegistrationUserFromDataProvider
+15:13:46.522 INFO  SignUpNegativeFromDataProviderTests:84 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:13:46.525 INFO  SignUpNegativeFromDataProviderTests:85 - -------keep trying to test
+15:13:46.525 INFO  SignUpNegativeFromDataProviderTests:88 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+15:13:46.526 INFO  SignUpNegativeFromDataProviderTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+15:13:46.527 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[V, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+15:13:46.528 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:46.794 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:47.373 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:47.540 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:47.689 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:47.775 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:47.776 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:13:47.777 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:47.777 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:47.856 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:48.286 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:48.333 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:48.419 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:13:48.449 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:13:48.540 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:48.566 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:48.618 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:13:48.635 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:13:48.818 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:48.833 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:48.887 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:13:48.914 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:13:49.214 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:49.234 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:49.417 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:13:49.658 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:13:50.189 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:50.243 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:50.299 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:13:50.338 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:13:50.713 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:50.734 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:50.818 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:13:50.852 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:13:52.088 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:13:53.101 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:13:53.574 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:13:55.415 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:13:58.416 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:13:58.416 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:13:58.506 WARN  SignUpNegativeFromDataProviderTests:69 - --------------------------------------------------------------
+15:13:58.507 WARN  SignUpNegativeFromDataProviderTests:70 - -----FALSE---Test negativeRegistrationUserFromDataProvider
+15:13:58.508 WARN  SignUpNegativeFromDataProviderTests:71 - --------------------------------------------------------------
+15:13:58.508 INFO  SignUpNegativeFromDataProviderTests:73 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:13:58.508 INFO  SignUpNegativeFromDataProviderTests:74 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+15:13:58.508 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //a[contains(text(),'Back to Log in')]
+15:13:58.565 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //a[contains(text(),'Back to Log in')]
+15:14:00.967 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //a[@class='signUp']
+15:14:01.060 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //a[@class='signUp']
+15:14:02.484 INFO  SignUpNegativeFromDataProviderTests:78 - Click Sign Up
+15:14:02.485 INFO  SignUpNegativeFromDataProviderTests:79 - Go to https://pollit.co.il/register
+15:14:02.485 INFO  SignUpPageTests:147 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+15:14:02.485 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:02.537 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:02.567 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:02.585 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:02.586 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:14:02.586 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:02.605 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:02.632 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:02.654 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:02.714 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:02.732 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:02.733 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> xpath: //button[@class='ui button login']]
+15:14:02.733 INFO  SignUpPageTests:150 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+15:14:02.733 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:14:02.742 INFO  SignUpNegativeFromDataProviderTests:88 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+15:14:02.743 INFO  SignUpNegativeFromDataProviderTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+15:14:02.745 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO123, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+15:14:02.746 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:02.760 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:02.784 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:02.798 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:02.813 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:02.829 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:02.829 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:14:02.829 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:14:02.829 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:02.841 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:02.947 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:03.000 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:03.045 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:03.061 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:03.946 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:14:03.963 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:14:04.016 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:14:04.032 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:14:04.195 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:14:04.209 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:14:04.258 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:14:04.273 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:14:04.483 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:14:04.499 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:14:04.552 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:14:04.566 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:14:04.759 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:14:04.773 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:14:04.825 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:14:04.839 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:14:04.995 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:14:05.011 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:14:05.063 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:14:05.079 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:14:06.242 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:14:07.242 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:07.259 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:09.042 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:14:12.044 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:14:12.044 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:14:12.076 WARN  SignUpNegativeFromDataProviderTests:69 - --------------------------------------------------------------
+15:14:12.076 WARN  SignUpNegativeFromDataProviderTests:70 - -----FALSE---Test negativeRegistrationUserFromDataProvider
+15:14:12.077 WARN  SignUpNegativeFromDataProviderTests:71 - --------------------------------------------------------------
+15:14:12.077 INFO  SignUpNegativeFromDataProviderTests:73 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:14:12.077 INFO  SignUpNegativeFromDataProviderTests:74 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+15:14:12.077 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //a[contains(text(),'Back to Log in')]
+15:14:12.092 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //a[contains(text(),'Back to Log in')]
+15:14:14.550 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //a[@class='signUp']
+15:14:14.569 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //a[@class='signUp']
+15:14:15.950 INFO  SignUpNegativeFromDataProviderTests:78 - Click Sign Up
+15:14:15.951 INFO  SignUpNegativeFromDataProviderTests:79 - Go to https://pollit.co.il/register
+15:14:15.951 INFO  SignUpPageTests:147 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+15:14:15.951 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.016 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:16.059 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.083 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:16.084 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:14:16.084 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:16.100 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:16.150 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:16.167 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:16.193 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:16.223 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:16.223 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> xpath: //button[@class='ui button login']]
+15:14:16.223 INFO  SignUpPageTests:150 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+15:14:16.223 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:14:16.231 INFO  SignUpNegativeFromDataProviderTests:88 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+15:14:16.233 INFO  SignUpNegativeFromDataProviderTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+15:14:16.238 INFO  SignUpNegativeFromDataProviderTests:30 - ---------------TEST START  negativeRegistrationUserFromDataProvider with parameters:[wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO1, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+15:14:16.239 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.265 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:16.289 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.305 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:16.319 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.332 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:16.333 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (6de35c34a786a23ef78197cf99670fd0)] -> id: name]
+15:14:16.333 INFO  SignUpPageTests:119 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:14:16.333 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.347 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:16.479 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.509 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:16.549 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: name
+15:14:16.561 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: name
+15:14:17.414 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:14:17.428 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:14:17.479 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: surname
+15:14:17.493 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: surname
+15:14:17.637 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:14:17.651 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:14:17.700 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: email
+15:14:17.715 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: email
+15:14:17.996 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:14:18.011 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:14:18.075 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: phone
+15:14:18.090 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: phone
+15:14:18.312 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:14:18.340 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:14:18.391 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password
+15:14:18.404 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password
+15:14:18.573 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:14:18.591 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:14:18.644 INFO  TestBase$MyListener:88 - Trying to find a variable: By.id: password-confirm
+15:14:18.659 INFO  TestBase$MyListener:94 - ******** Found a variable: By.id: password-confirm
+15:14:19.812 INFO  SignUpPageTests:143 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+15:14:20.813 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //button[@class='ui button login']
+15:14:20.828 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //button[@class='ui button login']
+15:14:22.444 INFO  SignUpNegativeFromDataProviderTests:112 - Click createAnAccountButton
+15:14:25.445 INFO  SignUpNegativeFromDataProviderTests:114 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+15:14:25.445 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+15:14:25.464 WARN  SignUpNegativeFromDataProviderTests:69 - --------------------------------------------------------------
+15:14:25.465 WARN  SignUpNegativeFromDataProviderTests:70 - -----FALSE---Test negativeRegistrationUserFromDataProvider
+15:14:25.465 WARN  SignUpNegativeFromDataProviderTests:71 - --------------------------------------------------------------
+15:14:25.465 INFO  SignUpNegativeFromDataProviderTests:73 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+15:14:25.465 INFO  SignUpNegativeFromDataProviderTests:74 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+15:14:25.465 INFO  TestBase$MyListener:88 - Trying to find a variable: By.xpath: //a[contains(text(),'Back to Log in')]
+15:14:25.481 INFO  TestBase$MyListener:94 - ******** Found a variable: By.xpath: //a[contains(text(),'Back to Log in')]

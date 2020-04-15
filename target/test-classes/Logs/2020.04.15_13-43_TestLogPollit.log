@@ -1,0 +1,837 @@
+13:43:03.573 INFO  TestBase:43 - Method completed: @BeforeSuite public void initTestSuite()
+13:43:03.579 INFO  TestBase:48 - @BeforeTest  public void initWebDriver >> START:
+13:43:15.847 INFO  TestBase:53 - Opened the site  - https://pollit.co.il/
+13:43:17.932 INFO  TestBase:56 - @BeforeTest  public void initWebDriver >> COMPLETED
+13:43:17.961 INFO  SignUpPageTests:44 - ----START @BeforeGroups(groups = "registrationNegative")- public void initPageForNegativeRegistrationFromDataProvider
+13:43:18.006 INFO  PageBase:51 - Start public boolean PageMainLoadedText
+13:43:18.101 INFO  TestBase$MyListener:95 - Found: By.xpath: //p[contains(text(),'George Carlin')]
+13:43:18.145 INFO  PageBase:73 - DONE: public boolean waitUntilElementIsLoadedText George Carlin By.xpath: //p[contains(text(),'George Carlin')]
+13:43:18.170 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:43:20.186 INFO  SignUpPageTests:54 - mainPage.SignUpButton.click()
+13:43:20.186 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:43:20.231 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:20.383 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:20.383 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:20.590 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:20.666 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:20.775 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:20.775 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:43:20.776 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:43:20.776 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:20.788 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:20.789 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:20.789 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:20.789 INFO  SignUpPageTests:59 - -----STOP @BeforeGroups(groups = "registrationNegative") public void initPageForNegativeRegistrationFromDataProvider
+13:43:20.791 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:43:20.820 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:20.970 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:21.006 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:21.007 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:21.007 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:21.049 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:21.162 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:21.221 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:21.290 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:21.358 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:21.564 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:21.645 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:21.889 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:21.960 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:22.170 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:22.584 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:23.005 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:23.079 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:24.228 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:25.247 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:25.338 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:43:26.338 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:26.338 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:26.349 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:26.350 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:26.351 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:26.354 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:26.356 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:43:26.382 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:43:26.384 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:43:26.386 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, , tester@test.com, 972546667788, Password1, Password1]
+13:43:26.421 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:26.504 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:26.568 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:26.569 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:26.569 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:26.599 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:26.725 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:26.816 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:26.974 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:27.060 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:27.126 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:27.195 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:27.395 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:27.457 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:27.627 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:27.691 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:27.843 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:27.910 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:29.048 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:30.063 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:30.139 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:43:31.139 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:31.139 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:31.154 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:31.155 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:31.155 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:31.155 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:31.156 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:43:31.176 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:43:31.177 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:43:31.179 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, Petrovich, , 972546667788, Password1, Password1]
+13:43:31.209 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:31.323 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:31.359 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:31.360 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:31.361 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:31.385 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:31.508 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:31.582 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:31.822 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:31.885 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:32.086 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:32.145 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:32.207 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:32.272 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:32.512 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:32.575 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:32.728 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:32.788 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:33.919 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:34.933 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:34.991 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:43:35.992 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:35.992 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:36.005 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:36.005 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:36.005 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:36.005 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:36.006 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:43:36.025 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:43:36.027 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:43:36.034 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, Petrovich, tester@test.com, , Password1, Password1]
+13:43:36.077 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:36.150 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:36.217 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:36.217 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:36.218 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:36.239 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:36.396 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:36.470 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:36.595 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:36.656 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:36.810 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:36.859 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:37.062 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:37.121 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:37.186 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:37.252 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:37.406 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:37.463 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:38.602 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:39.616 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:39.673 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:43:40.674 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:40.674 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:40.686 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:40.686 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:40.686 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:40.686 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:40.687 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:43:40.705 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:43:40.706 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:43:40.708 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, Petrovich, tester@test.com, 972546667788, , Password1]
+13:43:40.736 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:40.811 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:40.858 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:40.859 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:40.859 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:40.920 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:41.039 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:41.111 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:41.254 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:41.336 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:41.626 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:41.844 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:42.181 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:42.236 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:42.527 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:42.624 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:42.710 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:42.840 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:43.992 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:45.004 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:45.095 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:43:46.095 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:46.095 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:46.110 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:46.111 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:46.112 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:46.112 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:46.113 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:43:46.145 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:43:46.146 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:43:46.147 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[V, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:43:46.175 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:46.258 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:46.306 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:46.307 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:46.308 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:46.342 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:46.455 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:46.516 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:46.603 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:46.671 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:46.834 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:46.889 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:47.101 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:47.158 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:47.341 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:47.383 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:47.554 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:47.611 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:48.755 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:49.768 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:51.479 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:43:52.479 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:52.479 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:52.488 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:52.488 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:52.488 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:52.488 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:43:52.490 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:43:52.499 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:43:52.522 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:43:54.875 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:43:56.409 INFO  SignUpPageTests:73 - Click Sign Up
+13:43:56.410 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:43:56.410 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:43:56.502 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:56.552 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:56.553 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:56.567 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:56.608 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:56.648 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:43:56.648 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:43:56.648 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:43:56.649 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:43:56.656 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:43:56.656 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:43:56.656 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:43:56.657 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:43:56.657 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:43:56.660 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO123, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:43:56.682 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:56.718 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:56.761 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:56.761 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:43:56.761 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:43:56.783 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:56.927 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:56.979 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:43:57.850 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:57.913 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:43:58.087 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:58.163 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:43:58.368 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:58.428 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:43:58.611 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:58.672 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:43:58.837 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:43:58.901 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:00.043 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:01.056 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:02.579 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:44:03.580 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:03.580 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:03.587 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:03.588 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:03.588 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:03.588 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:03.589 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:44:03.600 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:44:03.614 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:44:06.077 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:44:07.419 INFO  SignUpPageTests:73 - Click Sign Up
+13:44:07.419 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:44:07.420 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:07.445 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:07.495 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:07.495 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:07.511 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:07.566 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:07.608 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:07.608 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:44:07.608 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:07.608 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:07.616 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:07.616 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:07.617 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:07.617 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:44:07.617 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:44:07.619 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO1, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:44:07.648 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:07.686 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:07.713 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:07.714 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:07.714 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:07.727 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:07.859 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:07.928 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:08.812 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:08.872 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:09.029 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:09.090 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:09.289 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:09.350 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:09.527 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:09.592 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:09.754 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:09.814 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:10.966 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:11.980 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:13.599 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:44:14.600 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:14.600 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:14.607 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:14.608 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:14.608 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:14.608 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:14.609 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:44:14.619 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:44:14.652 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:44:17.094 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:44:18.459 INFO  SignUpPageTests:73 - Click Sign Up
+13:44:18.460 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:44:18.460 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:18.479 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:18.564 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:18.564 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:18.582 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:18.635 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:18.671 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:18.674 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:44:18.674 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:18.674 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:18.684 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:18.685 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:18.685 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:18.685 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:44:18.686 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:44:18.687 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:44:18.702 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:18.740 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:18.772 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:18.772 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:18.772 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:18.785 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:18.949 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:19.002 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:24.218 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:24.279 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:24.460 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:24.526 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:24.763 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:24.824 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:25.000 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:25.053 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:25.225 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:25.288 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:26.443 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:27.456 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:29.144 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:44:30.151 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:30.151 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:30.151 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:30.151 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:30.151 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:30.151 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:30.151 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:44:30.167 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:44:30.182 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:44:32.725 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:44:34.020 INFO  SignUpPageTests:73 - Click Sign Up
+13:44:34.020 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:44:34.021 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:34.056 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.134 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.135 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:34.150 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:34.208 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:34.244 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:34.244 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:44:34.244 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:34.245 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:34.254 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:34.254 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:34.254 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:34.254 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:44:34.255 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:44:34.255 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[                                  , Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:44:34.287 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.341 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.368 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.369 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:34.369 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:34.382 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.533 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.622 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:34.964 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:35.031 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:35.200 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:35.263 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:35.474 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:35.536 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:35.714 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:35.776 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:35.958 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:36.015 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:37.167 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:38.180 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:39.790 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:44:40.790 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:40.790 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:40.797 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:40.797 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:40.797 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:40.797 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:40.799 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:44:40.807 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:44:40.897 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:44:43.402 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:44:44.640 INFO  SignUpPageTests:73 - Click Sign Up
+13:44:44.641 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:44:44.641 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:44.690 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:44.749 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:44.749 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:44.765 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:44.810 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:44.844 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:44.844 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:44:44.844 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:44.844 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:44.853 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:44.853 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:44.853 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:44.853 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:44:44.854 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:44:44.856 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[!@#$%^&*()_+{}|?><<>?|":{}+_)(*&^%$#@!@#_+{}|?><<>?|":{}+_)(*&^%$#@!@, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:44:44.875 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:44.948 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:44.975 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:44.976 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:44.976 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:44.990 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:45.202 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:45.255 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:46.487 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:46.548 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:46.698 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:46.762 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:46.959 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:47.023 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:47.192 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:47.253 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:47.415 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:47.479 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:48.633 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:49.646 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:51.184 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:44:52.184 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:52.184 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:52.191 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:52.191 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:52.191 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:52.191 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:44:52.192 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:44:52.198 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:44:52.295 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:44:54.867 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:44:56.372 INFO  SignUpPageTests:73 - Click Sign Up
+13:44:56.372 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:44:56.373 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:56.394 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:56.457 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:56.457 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:56.474 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:56.512 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:56.544 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:44:56.544 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:44:56.545 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:44:56.545 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:44:56.553 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:44:56.553 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:44:56.553 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:44:56.554 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:44:56.554 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:44:56.556 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[1234567778901234567890 1234567890, Petrovich, tester@test.com, 972546667788, Password1, Password1]
+13:44:56.573 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:56.611 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:56.644 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:56.644 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:44:56.645 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:44:56.657 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:56.852 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:56.938 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:44:57.289 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:57.352 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:44:57.507 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:57.569 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:44:57.771 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:57.831 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:44:58.007 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:58.068 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:44:58.228 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:58.291 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:44:59.427 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:00.440 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:02.618 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:45:03.619 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:03.619 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:03.630 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:03.630 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:03.630 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:03.630 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:03.631 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:45:03.651 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:45:03.794 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:45:06.222 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:45:07.574 INFO  SignUpPageTests:73 - Click Sign Up
+13:45:07.574 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:45:07.574 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:07.675 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:07.720 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:07.721 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:07.744 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:07.803 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:07.836 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:07.836 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:45:07.836 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:07.837 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:07.844 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:07.844 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:07.844 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:07.844 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:45:07.845 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:45:07.847 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, V, tester@test.com, 972546667788, Password1, Password1]
+13:45:07.861 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:07.896 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:07.924 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:07.924 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:07.925 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:07.938 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:08.152 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:08.249 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:08.328 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:08.390 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:08.526 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:08.617 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:08.821 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:09.320 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:09.704 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:09.793 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:10.169 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:10.335 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:11.678 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:12.701 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:14.525 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:45:15.526 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:15.526 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:15.532 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:15.532 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:15.532 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:15.532 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:15.533 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:45:15.543 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:45:15.672 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:45:18.056 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:45:19.309 INFO  SignUpPageTests:73 - Click Sign Up
+13:45:19.309 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:45:19.310 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:19.328 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:19.381 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:19.381 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:19.396 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:19.441 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:19.474 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:19.474 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:45:19.475 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:19.475 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:19.484 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:19.484 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:19.484 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:19.484 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:45:19.485 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:45:19.486 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO123, tester@test.com, 972546667788, Password1, Password1]
+13:45:19.501 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:19.543 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:19.573 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:19.573 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:19.573 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:19.587 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:19.830 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:19.968 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:20.055 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:20.115 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:21.054 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:21.115 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:21.324 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:21.384 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:21.603 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:21.662 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:21.934 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:21.993 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:23.134 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:24.147 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:25.720 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:45:26.720 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:26.720 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:26.727 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:26.727 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:26.727 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:26.728 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:26.728 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:45:26.737 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:45:26.872 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:45:29.201 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:45:30.600 INFO  SignUpPageTests:73 - Click Sign Up
+13:45:30.600 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:45:30.600 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:30.621 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:30.659 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:30.659 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:30.673 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:30.734 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:30.825 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:30.825 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:45:30.826 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:30.826 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:30.833 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:30.834 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:30.834 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:30.834 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:45:30.835 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:45:30.838 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO1, tester@test.com, 972546667788, Password1, Password1]
+13:45:30.875 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:30.910 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:30.938 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:30.938 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:30.938 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:30.950 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:31.270 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:31.321 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:31.402 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:31.463 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:32.359 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:32.429 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:32.671 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:32.734 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:32.921 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:32.983 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:33.147 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:33.210 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:34.350 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:35.363 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:36.960 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:45:37.960 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:37.960 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:37.966 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:37.966 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:37.966 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:37.966 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:37.967 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:45:37.975 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:45:37.989 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:45:40.427 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:45:41.718 INFO  SignUpPageTests:73 - Click Sign Up
+13:45:41.718 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:45:41.718 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:41.766 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:41.808 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:41.808 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:41.826 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:41.867 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:41.904 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:41.905 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:45:41.905 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:41.905 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:41.915 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:41.915 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:41.915 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:41.915 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:45:41.916 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:45:41.917 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, wertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIOwertyuiop asdfghjkl QWERTYUIO .QWERTYUI wertyuiop asdfghjkl QWERTYUIO, tester@test.com, 972546667788, Password1, Password1]
+13:45:41.933 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:41.972 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:42.011 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:42.012 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:42.012 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:42.023 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:42.234 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:42.371 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:42.452 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:42.514 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:48.209 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:48.268 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:48.487 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:48.549 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:48.742 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:48.805 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:45:48.976 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:49.044 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:45:50.206 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:51.218 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:53.161 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:45:54.164 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:54.164 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:54.164 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:54.164 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:54.164 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:54.164 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:45:54.164 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:45:54.179 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:45:54.201 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:45:56.604 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:45:57.912 INFO  SignUpPageTests:73 - Click Sign Up
+13:45:57.912 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:45:57.912 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:57.928 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:57.975 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:57.976 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:57.993 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:58.039 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:58.074 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:45:58.074 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:45:58.074 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:45:58.075 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:45:58.081 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:45:58.081 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:45:58.081 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:45:58.081 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:45:58.082 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:45:58.083 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, !@#$%^&*()_+{}|?><<>?|":{}+_)(*&^%$#@!@#_+{}|?><<>?|":{}+_)(*&^%$#@!@, tester@test.com, 972546667788, Password1, Password1]
+13:45:58.099 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:58.145 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:58.180 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:58.180 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:45:58.180 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:45:58.196 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:58.326 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:58.375 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:45:58.450 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:58.510 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:45:59.490 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:59.725 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:45:59.939 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:45:59.998 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:46:00.179 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:46:00.238 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:46:00.402 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:46:00.462 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:46:01.600 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:46:02.612 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:04.189 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:46:05.190 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:46:05.190 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:46:05.197 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:46:05.197 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:46:05.197 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:46:05.197 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:46:05.198 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:46:05.204 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:46:05.218 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:46:07.829 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:46:09.345 INFO  SignUpPageTests:73 - Click Sign Up
+13:46:09.345 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:46:09.346 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:46:09.361 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:09.414 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:09.415 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:46:09.437 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:09.477 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:09.517 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:09.517 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:46:09.517 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:46:09.517 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:46:09.548 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:46:09.549 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:46:09.549 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:46:09.549 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:46:09.550 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:46:09.553 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy,                                   , tester@test.com, 972546667788, Password1, Password1]
+13:46:09.641 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:09.687 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:09.753 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:09.753 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:46:09.753 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:46:09.767 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:10.049 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:10.189 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:10.267 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:46:10.328 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:46:10.694 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:46:10.756 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:46:10.960 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:46:11.022 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:46:11.198 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:46:11.260 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:46:11.417 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:46:11.481 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:46:12.616 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:46:13.629 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:15.200 INFO  SignUpPageTests:104 - Click createAnAccountButton
+13:46:16.201 INFO  SignUpPageTests:106 - ----Start Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:46:16.201 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:46:16.209 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:46:16.209 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:46:16.209 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:46:16.209 INFO  SignUpPageTests:108 - -----Stop Assert.assertTrue(SignUpPage.atUrlSignUpPage());
+13:46:16.209 INFO  SignUpPageTests:65 - -------START @AfterMethod navigateToSignUpPage-------------------------------
+13:46:16.217 INFO  SignUpPageTests:69 - This Page https://pollit.co.il/verifyPage click Back To LogIn
+13:46:16.235 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[contains(text(),'Back to Log in')]
+13:46:19.038 INFO  TestBase$MyListener:95 - Found: By.xpath: //a[@class='signUp']
+13:46:20.410 INFO  SignUpPageTests:73 - Click Sign Up
+13:46:20.410 INFO  SignUpPageTests:74 - Go to https://pollit.co.il/register
+13:46:20.410 INFO  SignUpPageTests:158 - Start: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:46:20.428 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:20.469 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:20.470 INFO  PageBase:43 - DONE: public void waitUntilElementIsVisible [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:46:20.485 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:20.529 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:20.560 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
+13:46:20.560 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> xpath: //button[@class='ui button login']]
+13:46:20.560 INFO  SignUpPageTests:161 - Stop: public SignUpPageHelper waitSignUpPageIsCorrectLoaded
+13:46:20.560 INFO  SignUpPageTests:60 - --Start: public boolean atUrlSignUpPage
+13:46:20.574 INFO  SignUpPageTests:64 - This Page is https://pollit.co.il/register
+13:46:20.575 INFO  SignUpPageTests:65 - TRUE: public boolean atUrlSignUpPage
+13:46:20.575 INFO  SignUpPageTests:66 - --Stop: public boolean atUrlSignUpPage
+13:46:20.575 INFO  SignUpPageTests:79 - ---------STOP @AfterMethod navigateToSignUpPage---------------------------------
+13:46:20.576 INFO  SignUpPageTests:36 - ---------------TEST STOP  negativeRegistrationUserFromDataProvider----------------------------
+13:46:20.576 INFO  SignUpPageTests:30 - ---------------TEST START :negativeRegistrationUserFromDataProvider with parameters:[Vasy, 1234567778901234567890 1234567890, tester@test.com, 972546667788, Password1, Password1]
+13:46:20.591 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:20.629 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:20.660 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:20.661 INFO  PageBase:102 - DONE: public void waitUntilElementIsClickable [[ChromeDriver: chrome on WINDOWS (bb116c39b4f374eb4951e369fd21bafd)] -> id: name]
+13:46:20.661 INFO  SignUpPageTests:130 - Start: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:46:20.676 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:20.936 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:21.085 INFO  TestBase$MyListener:95 - Found: By.id: name
+13:46:21.168 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:46:21.228 INFO  TestBase$MyListener:95 - Found: By.id: surname
+13:46:21.662 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:46:21.725 INFO  TestBase$MyListener:95 - Found: By.id: email
+13:46:21.917 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:46:21.979 INFO  TestBase$MyListener:95 - Found: By.id: phone
+13:46:22.148 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:46:22.206 INFO  TestBase$MyListener:95 - Found: By.id: password
+13:46:22.374 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:46:22.437 INFO  TestBase$MyListener:95 - Found: By.id: password-confirm
+13:46:23.608 INFO  SignUpPageTests:154 - Stop: public void enterValueToFieldsInPageOfRegistrationFromDataProvider
+13:46:24.666 INFO  TestBase$MyListener:95 - Found: By.xpath: //button[@class='ui button login']
